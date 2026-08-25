@@ -89,7 +89,7 @@ CREATE TABLE postings (
 6. **Aba Relatórios** — 3 relatórios + modal de mês
 7. **Verificação** — `npm run lint`, `npx tsc --noEmit`, teste das funções puras em Node, checklist completo
 
-## Aprimoramentos
+## Aprimoramentos 01
 
 - Alterar a forma de entrada de dados, atual:
 D/d/ nada + TipoConta:NomeConta se débito
@@ -117,3 +117,15 @@ permanece o mesmo.
 
 - O campo Valor não é mais necessário colocar a cifra
 tipo USD,BRL,R$ ou US$. Automaticamente deve ir para '$'.
+
+## Aprimoramento 02
+
+- Permitir colocar admob
+1. banner rodapé
+2. video de recompensa - se assistir, desativa todas os ads por 120 minutos.
+
+- exportar
+1. exportar lançamentos e relatórios para
+  * planilha microsoft/openoffice/google
+  * docs google
+  * arquivo markdown
